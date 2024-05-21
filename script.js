@@ -1,25 +1,4 @@
-gsap.registerPlugin(ScrollTrigger);
-
-gsap.from(".section", {
-    opacity: 0,
-    y: 50,
-    duration: 1,
-    stagger: 0.4,
-    ease: "power4.out",
-    scrollTrigger: {
-        trigger: ".section",
-        start: "top 80%",
-    },
-});
-
-gsap.from(".project", {
-    opacity: 0,
-    y: 50,
-    duration: 1,
-    stagger: 0.4,
-    ease: "power4.out",
-    scrollTrigger: {
-        trigger: ".project",
-        start: "top 80%",
-    },
+document.addEventListener('DOMContentLoaded', () => {
+    gsap.from('nav', { duration: 1, y: '-100%', ease: 'bounce' });
+    gsap.from('.section', { duration: 1, opacity: 0, stagger: 0.5 });
 });

@@ -7,7 +7,6 @@ Welcome to the portfolio of Adrish Mukherjee! This website showcases my projects
 - [Introduction](#introduction)
 - [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
 - [Contact](#contact)
 
 ## Introduction
